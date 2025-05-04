@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VantaScripts</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: rgba(20, 20, 20, 0.85);
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      z-index: 999;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .logo img {
+      width: 32px;
+      height: 32px;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    .search-bar {
+      margin-left: auto;
+    }
+    .search-bar input {
+      padding: 0.4rem 0.6rem;
+      border-radius: 4px;
+      border: none;
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+    .footer-logo-desc {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      max-width: 300px;
+    }
+    .footer-logo-desc img {
+      width: 50px;
+    }
+    .footer-links, .footer-payments, .footer-socials {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .footer-socials img, .footer-payments img {
+      width: 24px;
+      height: auto;
+    }
+    .footer-section {
+      flex: 1;
+      min-width: 200px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/assets/logo.png" alt="Vanta Logo" />
+      <strong>VantaScripts</strong>
+    </div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/scripts.html">Scripts</a>
+      <a href="/support.html">Support</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." />
+    </div>
+  </header>
+
+  <!-- Main content here -->
+  <main style="padding: 2rem; text-align: center;">
+    <h1>Welcome to VantaScripts</h1>
+    <p>Premium Rust scripts built for performance, precision, and safety.</p>
+  </main>
+
+  <footer>
+    <div class="footer-section footer-logo-desc">
+      <img src="/assets/logo.png" alt="Vanta Logo">
+      <p>VantaScripts offers a premium collection of high-quality scripts for gamers. Explore a curated library of reliable and powerful tools — including exclusive and hard-to-find options — all at competitive prices with discounts up to 50%.</p>
+    </div>
+
+    <div class="footer-section footer-links">
+      <strong>Navigation</strong>
+      <a href="/scripts.html">Catalog</a>
+      <a href="#">Blog</a>
+      <a href="#">FAQ</a>
+      <a href="/support.html">Support</a>
+    </div>
+
+    <div class="footer-section footer-links">
+      <strong>Information</strong>
+      <a href="#">User Agreement</a>
+      <a href="#">Offer Agreement</a>
+    </div>
+
+    <div class="footer-section footer-socials">
+      <strong>Follow Us</strong>
+      <a href="https://discord.gg/J6dhVNj2"><img src="/assets/discord.png" alt="Discord"></a>
+      <a href="#"><img src="/assets/youtube.png" alt="YouTube"></a>
+    </div>
+
+    <div class="footer-section footer-payments">
+      <strong>Payments</strong>
+      <img src="/assets/visa.png" alt="Visa">
+      <img src="/assets/paypal.png" alt="PayPal">
+      <img src="/assets/mastercard.png" alt="Mastercard">
+      <img src="/assets/crypto.png" alt="Crypto">
+    </div>
+  </footer>
+</body>
+</html>
